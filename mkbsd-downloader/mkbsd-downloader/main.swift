@@ -1,6 +1,6 @@
 //
 //  main.swift
-//  mkbsd
+//  mkbsd-downloader
 //
 //  Created by Thomas Kackley on 9/24/24.
 //

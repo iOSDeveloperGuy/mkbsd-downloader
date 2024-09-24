@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXCopyFilesBuildPhase section */
-		87D8CF752CA36B1A00B4AEA6 /* CopyFiles */ = {
+		87D8CF8E2CA3737700B4AEA6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -19,15 +19,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		87D8CF772CA36B1A00B4AEA6 /* mkbsd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mkbsd; sourceTree = BUILT_PRODUCTS_DIR; };
+		87D8CF902CA3737700B4AEA6 /* mkbsd-downloader */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "mkbsd-downloader"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		87D8CF792CA36B1A00B4AEA6 /* mkbsd */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = mkbsd; sourceTree = "<group>"; };
+		87D8CF922CA3737700B4AEA6 /* mkbsd-downloader */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "mkbsd-downloader"; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		87D8CF742CA36B1A00B4AEA6 /* Frameworks */ = {
+		87D8CF8D2CA3737700B4AEA6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,18 +37,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		87D8CF6E2CA36B1A00B4AEA6 = {
+		87D8CF872CA3737700B4AEA6 = {
 			isa = PBXGroup;
 			children = (
-				87D8CF792CA36B1A00B4AEA6 /* mkbsd */,
-				87D8CF782CA36B1A00B4AEA6 /* Products */,
+				87D8CF922CA3737700B4AEA6 /* mkbsd-downloader */,
+				87D8CF912CA3737700B4AEA6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		87D8CF782CA36B1A00B4AEA6 /* Products */ = {
+		87D8CF912CA3737700B4AEA6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				87D8CF772CA36B1A00B4AEA6 /* mkbsd */,
+				87D8CF902CA3737700B4AEA6 /* mkbsd-downloader */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,44 +56,44 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		87D8CF762CA36B1A00B4AEA6 /* mkbsd */ = {
+		87D8CF8F2CA3737700B4AEA6 /* mkbsd-downloader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87D8CF7E2CA36B1A00B4AEA6 /* Build configuration list for PBXNativeTarget "mkbsd" */;
+			buildConfigurationList = 87D8CF972CA3737700B4AEA6 /* Build configuration list for PBXNativeTarget "mkbsd-downloader" */;
 			buildPhases = (
-				87D8CF732CA36B1A00B4AEA6 /* Sources */,
-				87D8CF742CA36B1A00B4AEA6 /* Frameworks */,
-				87D8CF752CA36B1A00B4AEA6 /* CopyFiles */,
+				87D8CF8C2CA3737700B4AEA6 /* Sources */,
+				87D8CF8D2CA3737700B4AEA6 /* Frameworks */,
+				87D8CF8E2CA3737700B4AEA6 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				87D8CF792CA36B1A00B4AEA6 /* mkbsd */,
+				87D8CF922CA3737700B4AEA6 /* mkbsd-downloader */,
 			);
-			name = mkbsd;
+			name = "mkbsd-downloader";
 			packageProductDependencies = (
 			);
-			productName = mkbsd;
-			productReference = 87D8CF772CA36B1A00B4AEA6 /* mkbsd */;
+			productName = "mkbsd-downloader";
+			productReference = 87D8CF902CA3737700B4AEA6 /* mkbsd-downloader */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		87D8CF6F2CA36B1A00B4AEA6 /* Project object */ = {
+		87D8CF882CA3737700B4AEA6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					87D8CF762CA36B1A00B4AEA6 = {
+					87D8CF8F2CA3737700B4AEA6 = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = 87D8CF722CA36B1A00B4AEA6 /* Build configuration list for PBXProject "mkbsd" */;
+			buildConfigurationList = 87D8CF8B2CA3737700B4AEA6 /* Build configuration list for PBXProject "mkbsd-downloader" */;
 			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -101,18 +101,18 @@
 				en,
 				Base,
 			);
-			mainGroup = 87D8CF6E2CA36B1A00B4AEA6;
-			productRefGroup = 87D8CF782CA36B1A00B4AEA6 /* Products */;
+			mainGroup = 87D8CF872CA3737700B4AEA6;
+			productRefGroup = 87D8CF912CA3737700B4AEA6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				87D8CF762CA36B1A00B4AEA6 /* mkbsd */,
+				87D8CF8F2CA3737700B4AEA6 /* mkbsd-downloader */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		87D8CF732CA36B1A00B4AEA6 /* Sources */ = {
+		87D8CF8C2CA3737700B4AEA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +122,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		87D8CF7C2CA36B1A00B4AEA6 /* Debug */ = {
+		87D8CF952CA3737700B4AEA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -185,7 +185,7 @@
 			};
 			name = Debug;
 		};
-		87D8CF7D2CA36B1A00B4AEA6 /* Release */ = {
+		87D8CF962CA3737700B4AEA6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -240,7 +240,7 @@
 			};
 			name = Release;
 		};
-		87D8CF7F2CA36B1A00B4AEA6 /* Debug */ = {
+		87D8CF982CA3737700B4AEA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -250,7 +250,7 @@
 			};
 			name = Debug;
 		};
-		87D8CF802CA36B1A00B4AEA6 /* Release */ = {
+		87D8CF992CA3737700B4AEA6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -263,25 +263,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		87D8CF722CA36B1A00B4AEA6 /* Build configuration list for PBXProject "mkbsd" */ = {
+		87D8CF8B2CA3737700B4AEA6 /* Build configuration list for PBXProject "mkbsd-downloader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				87D8CF7C2CA36B1A00B4AEA6 /* Debug */,
-				87D8CF7D2CA36B1A00B4AEA6 /* Release */,
+				87D8CF952CA3737700B4AEA6 /* Debug */,
+				87D8CF962CA3737700B4AEA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		87D8CF7E2CA36B1A00B4AEA6 /* Build configuration list for PBXNativeTarget "mkbsd" */ = {
+		87D8CF972CA3737700B4AEA6 /* Build configuration list for PBXNativeTarget "mkbsd-downloader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				87D8CF7F2CA36B1A00B4AEA6 /* Debug */,
-				87D8CF802CA36B1A00B4AEA6 /* Release */,
+				87D8CF982CA3737700B4AEA6 /* Debug */,
+				87D8CF992CA3737700B4AEA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 87D8CF6F2CA36B1A00B4AEA6 /* Project object */;
+	rootObject = 87D8CF882CA3737700B4AEA6 /* Project object */;
 }
